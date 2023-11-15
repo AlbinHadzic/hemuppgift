@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statligatelevisionskanalen</title>
+    <link rel="stylesheet" href="css/display.css" />
+</head>
+<body>
+
+    <header><h1>STATLIGA TELEVIONSKANALEN</h1></header>
+    <div id="searchField"><input name="search" id="searchColumn" type="text" placeholder="Sök">
+        <button type="button" onclick="searchData()" id="search">Sök</button></input></div>
+
+
+
+<main>
+    <div id="output"></div>
+    <form id="tvShows">
+
+        <h3>Lägg till program</h3>
+ 
+    <input name="title" id="title" type="text" placeholder="Titel"></input><p></p>
+    
+    <input name="filmName" id="beskrivning" type="text" placeholder="Beskrivning"></input><p></p>
+    <select name="age" id="age"></select><p></p>
+    
+    <div id="allButtons"> 
+        <button type="button" id="button" onclick="saveData()">Lägg till film</button>
+        <button type="button" onclick="showData()" id="button">Visa filmarkivet</button>
+        <button type="button" onclick = "clearData()" id="button">Rensa filmarkivet</button>
+    </div>
+   
+    
+    
+    </form>
+    <div id="searchoutput"></div>
+</main>
+<footer>Senast uppdaterad 2023-11-15<h6>Copyright Statliga Televisionskanalen 2023</h6></footer>
+    <script src="/javascript/functions.js"></script>
+</body>
+</html>

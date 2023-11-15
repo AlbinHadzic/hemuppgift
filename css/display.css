@@ -1,0 +1,103 @@
+main{
+    display: flex;
+
+}
+
+body{
+    display: flex;
+    background-color: rgb(165, 165, 165);
+    background-size: cover;
+    color: rgb(6, 6, 6);
+    flex-direction: column;
+    margin: 0;
+    
+}
+
+header{
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    top: 0;
+}
+input{
+    padding: 1em;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+}
+#allButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    
+}
+select{
+    padding: 1em;
+    border-radius: 15px;
+    text-align: center;
+    width: 330px;
+}
+#tvShows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%; 
+    max-width: 100%;
+    border-radius: 20px;
+}
+#search {
+    
+    padding: 20px;
+    width: 80%; 
+    max-width: 60px; 
+    border-radius: 20px;
+}
+footer{
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+button{
+    text-align: center;
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#output{
+    background-color: rgb(165, 165, 165);
+    width: 600px;
+    height: 20px;
+    text-align: center;
+}
+#searchoutput{
+    background-color: rgb(165, 165, 165);
+    width: 600px;
+    height: 20px;
+    text-align: center;
+}
+#searchField{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    width: 100%; 
+    max-width: 100%; 
+    border-radius: 20px;
+    gap: 5px;
+}
+
